@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+}.cuerpo {
+	position: relative;
+	background: #e6e6e6;
+	background-attachment: fixed;
+}
+/*----------------------------cabezera de Inico-------------------------- */
+#barra{
+
+	background: #000;
+	width: 100%;
+	height: 100px;
+}#barra .logo{
+	position: relative;
+	display: block;
+	top: 20px;
+	right: -20px;
+	width: 80px;
+	height:60px;
+
+}#barra h1{
+position: absolute;
+top: 30px;
+left: 40%;
+right: 0;
+bottom: 0;
+color: #fff;
+
+}
+#barra .redes{
+	position: relative;
+	top: -25px;
+	left: 80%;
+	right:0 ;
+	padding: 1px 10px;
+	width: 30px;
+	height: 30px;
+}
+
+/* ------------------------menu Inicio----------------------*/
+
+#head .menu{
+	
+}#head .menu ul{
+
+	list-style: none;
+}
+#head .menu ul li{
+	position: relative;
+	left: 15%;
+	display: inline-block;
+}#head .menu ul li a{
+	padding: 20px 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+}#head .menu ul li a:hover{
+
+	background: rgba(127, 126, 132, .5);
+	color: #fff;
+	
+}
+/* ---------------------Imagen De fondo------------------------*/
+.Principal {
+	position: relative;
+	
+	width: 90%;
+	top: 0;
+	left: 5px;
+	right: 0;
+
+}
+
+/* --------------------------Informacion--------------------------*/
+.main .secciones{
+	position: relative;
+	width: 100%;
+
+}
+#Inforaciones{
+	background: blue;
+	height: 500px;
+
+}#Inforaciones .titulo{
+	text-align: center;
+	font-family: "italic";
+	font-size: 50px;
+}
+#Inforaciones .Inforacion{
+
+	position: relative;
+	display: inline-block;
+	background: white;
+	left: 100px;
+	width: 20%;
+	height: 300px;
+	padding: 40px;
+	margin: 10px 20px;
+	border: 2px solid #000;
+
+
+}
+
+
+/* -------------menu Inicio-----------*/
+
+/* -------------menu Inicio-----------*/
+
+/* -------------menu Inicio-----------*/
+
+/* -------------menu Inicio-----------*/
+
+
