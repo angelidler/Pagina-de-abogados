@@ -79,28 +79,54 @@ color: #fff;
 	width: 100%;
 
 }
-#Inforaciones{
-	background: blue;
-	height: 500px;
+#Informaciones{
+	background: #343434;
+	height: 450px;
 
-}#Inforaciones .titulo{
+}.titulo{
 	text-align: center;
 	font-family: "italic";
 	font-size: 50px;
 }
-#Inforaciones .Inforacion{
+#Informaciones article{
 
 	position: relative;
-	display: inline-block;
+	float: left;
 	background: white;
-	left: 100px;
-	width: 20%;
-	height: 300px;
+	left: 5%;
+	width: 215px;
+	height: 370px;
 	padding: 40px;
-	margin: 10px 20px;
-	border: 2px solid #000;
+
+}#Informaciones .Informacion2{
+
+background: #C1AB23;
 
 
+}#Informaciones article:hover{
+
+background: #201F1F;
+color: #fff;
+
+
+}
+#Informaciones .Informacion{
+
+background: #343434;
+
+
+}
+
+
+#Informaciones article h2{
+
+font-size: 40px;
+font-family: "Arial";
+color: #fff;
+
+}#Informaciones article p{
+	font-family: "Arial";
+	color: #fff;
 }
 
 
