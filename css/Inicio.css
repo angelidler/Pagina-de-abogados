@@ -1,17 +1,23 @@
 *{
 	padding: 0;
 	margin: 0;
-}.cuerpo {
+}body{
 	position: relative;
 	background: #e6e6e6;
 	background-attachment: fixed;
+}.cuerpo{
+	position: relative;
+	background: #fff;
+	width: 1000px;
+	height: 100%;
+	left: 200px;
 }
 /*----------------------------cabezera de Inico-------------------------- */
 #barra{
 
 	background: #000;
-	width: 100%;
-	height: 100px;
+	width: inherit;
+	height: inherit;
 }#barra .logo{
 	position: relative;
 	display: block;
@@ -32,7 +38,7 @@ color: #fff;
 #barra .redes{
 	position: relative;
 	top: -25px;
-	left: 80%;
+	left:75%;
 	right:0 ;
 	padding: 1px 10px;
 	width: 30px;
@@ -42,7 +48,8 @@ color: #fff;
 /* ------------------------menu Inicio----------------------*/
 
 #head .menu{
-	
+	width: inherit;
+	height: inherit;
 }#head .menu ul{
 
 	list-style: none;
@@ -63,20 +70,69 @@ color: #fff;
 	
 }
 /* ---------------------Imagen De fondo------------------------*/
-.Principal {
-	position: relative;
-	
-	width: 90%;
-	top: 0;
-	left: 5px;
-	right: 0;
+.container{
+	margin: auto;
+	background-color: white;
+	width: 800px;
+	padding: 30px;
+}
+.Slider li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
 
+}.Slider{
+	position: relative;
+	width: 800px;
+	height: 300px;
+}.Slider li{
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	width: inherit;
+	height: inherit;
+	background-color: white;
+	transition: opacity .5s;
+
+}.Slider li img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+
+}
+ul.Slider li:first-child{
+	opacity: 1;
+}
+ul.Slider li:target{
+	opacity: 1;
+}
+
+.menu2{
+	text-align: center;
+	margin: 20px;
+}
+.menu2 li{
+	display: inline-block;
+	text-align: center;
+	
+}.menu2 li a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	background-color: grey;
+	padding: 10px;
+	width: 8px;
+	height: 8px;
+	font-size: 8px;
+	border-radius: 100%;
 }
 
 /* --------------------------Informacion--------------------------*/
 .main .secciones{
 	position: relative;
-	width: 100%;
+	width: inherit;
+	height: inherit;
 
 }
 #Informaciones{
@@ -94,35 +150,31 @@ color: #fff;
 	float: left;
 	background: white;
 	left: 5%;
-	width: 215px;
+	width: 140px;
 	height: 370px;
 	padding: 40px;
 
 }#Informaciones .Informacion2{
 
-background: #C1AB23;
+	background: #C1AB23;
 
 
 }#Informaciones article:hover{
 
-background: #201F1F;
-color: #fff;
+	background: #201F1F;
+	color: #fff;
 
 
-}
-#Informaciones .Informacion{
+}#Informaciones .Informacion{
 
-background: #343434;
-
-
-}
+	background: #343434;
 
 
-#Informaciones article h2{
+}#Informaciones article h2{
 
-font-size: 40px;
-font-family: "Arial";
-color: #fff;
+	font-size: 40px;
+	font-family: "Arial";
+	color: #fff;
 
 }#Informaciones article p{
 	font-family: "Arial";
@@ -130,12 +182,43 @@ color: #fff;
 }
 
 
-/* -------------menu Inicio-----------*/
+/* --------------------------Noticias--------------------------*/
+
+#Noticias {
+
+	background: #fff;
+	height: 250px;
+
+}.TituloN{
+	font-size: 30px;
+	font-family: "Arial";
+	text-align: center;
+}
+
+#Noticias .Informacion{
+	position: relative;
+	display: inline-block;
+	background: white;
+	left: 5%;
+	width: 140px;
+	height: 100px;
+	padding: 40px;
+}#Noticias .Informacion:hover{
+
+	box-shadow: 5px 5px 0px rgba(24, 23, 23, 0.5);
+}
 
 /* -------------menu Inicio-----------*/
 
 /* -------------menu Inicio-----------*/
 
-/* -------------menu Inicio-----------*/
+/* -------------------Pie de Pagina-------------------*/
+
+footer{
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding: 20px 20px;
+}
 
 
